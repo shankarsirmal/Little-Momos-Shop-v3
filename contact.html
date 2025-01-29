@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="aurthor" content="Shankar">
+    <meta name="Discription" content="This our contact page please fill this form">
+    <link rel="icon" href="momologo.png" type="image/icon">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="Js/main.js" defer></script>
+    <title>LMS Contact Us</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__h1">
+            <div class="lmslogo"></div>
+            <h1><a class="main-heading" href="index.html">Little Momos Shop</a></h1>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a class="ahover" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="ahover" href="index.html#menu">Menu</a>
+                </li>
+                <li>
+                    <a class="ahover" href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a class="ahover" href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <section class="hero">
+        <div class="hero__contact">
+            <div class="cont-us">Contact us</div>
+            <div class="img-cont">
+                <img src="contact_us.png" alt="Dioji">
+            </div>
+            
+        </div>
+    </section>
+    <main class="main">
+        <article class="main__article">
+            <h2 class="location">Our Location 📍</h2>
+            <address>
+                IIT market powai mumbai<br> shop no 69 paisa nagar ,<br>near laxmi chits funds organisatin
+                <p style="font-size: large; padding-top: 8px;">Phone: <a href="tel:+9999999999">999-999-9999</a></p>
+            </address>
+        </article>    
+        <article class="main__article">
+        <h2 class="contact__h2"> Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get" class="contact__form">
+
+                <p class="contact__p">
+                <label class="contact__label" for="name">Name:</label>
+                    <input class="contact__input" type="text" name="Yourname" id="name" placeholder="Enter name" autocomplete="on" required autofocus>
+                </p>
+                <p class="contact__p">
+                     <label class="contact__label" for="email">Email:</label>
+                    <input class="contact__input" type="email" name="email" id="email" placeholder="Enter email" autocomplete="on" required>
+                </p>
+                <p style="font-size: 1.5rem;">Which type of momos you preffer?</p>
+                <div>
+                    <input type="checkbox" class="momos" id="Steam" value="steam">
+                <label class="contact__label" for="steam">Stram Momos</label>
+                <br>
+                <input type="checkbox" class="momos" id="fried" value="fried">
+                <label class="contact__label" for="fried">Fried Momos</label>
+                <br>
+                <input type="checkbox" class="momos" id="special" value="special">
+                 <label class="contact__label" for="special">Special Momos</label>
+                <br><br>
+                </div>
+                 <label class="contact__label" for="Message">Your Message:</label>
+                <p class="contact__p">
+                    <textarea class="contact__textarea" name="Message" id="Message" placeholder="Type your message here" rows="5"
+                        cols="30"></textarea>
+                </p>
+            &nbsp;<button class="contact__button" type="submit"> Submit</button>
+            &nbsp;<button class="contact__button" type="reset">Reset</button>
+        </form>
+        <div class="center">
+            <a href="#" class="btop">Top</a>
+        </div>
+        </article>
+        <div class="insta__icon">Follow us :
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <br>
+    </main>
+    <footer class="footer">
+        <p>
+           <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Little Momos Shop</span>
+        </p>
+    </footer>
+</body>
+
+</html>
